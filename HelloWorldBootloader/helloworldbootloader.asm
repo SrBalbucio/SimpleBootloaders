@@ -7,7 +7,7 @@ init:
   mov ah, 0x0e
 
 done:
-  hlt
+  hlt ; faz o quit
 
 print_char:
   lodsb
